@@ -54,4 +54,3 @@ $_DVWA['SQLI_DB'] = getenv('SQLI_DB') ?: MYSQL;
 #$_DVWA['SQLITE_DB'] = 'sqli.db';
 
 ?>
-
