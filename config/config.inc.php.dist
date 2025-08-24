@@ -15,11 +15,11 @@ $DBMS = getenv('DBMS') ?: 'MySQL';
 # If you are using MariaDB then you cannot use root, you must use create a dedicated DVWA user.
 #   See README.md for more information on this.
 $_DVWA = array();
-$_DVWA[ 'db_server' ]   = 'sqlite';
-$_DVWA[ 'db_database' ] = 'dvwa.sqlite';
-$_DVWA[ 'db_user' ]     = '';
-$_DVWA[ 'db_password' ] = '';
-$_DVWA[ 'db_port' ]     = '';
+$_DVWA[ 'db_server' ]   = 'mysql-ashokkumarl.alwaysdata.net';
+$_DVWA[ 'db_database' ] = 'ashokkumarl_dvwa';
+$_DVWA[ 'db_user' ]     = '427665';
+$_DVWA[ 'db_password' ] = 'dvwa@321';
+$_DVWA[ 'db_port' ]     = '3306';
 
 # ReCAPTCHA settings
 #   Used for the 'Insecure CAPTCHA' module
@@ -54,3 +54,4 @@ $_DVWA['SQLI_DB'] = getenv('SQLI_DB') ?: MYSQL;
 #$_DVWA['SQLITE_DB'] = 'sqli.db';
 
 ?>
+
